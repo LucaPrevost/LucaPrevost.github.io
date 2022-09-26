@@ -1,0 +1,44 @@
+nav {
+    background-color: brown;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+footer {
+
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    bottom: 100%;
+}
+
+.listetable {
+
+    margin: 75%;
+    display: flex ;
+}
+
+.logo_boussole {
+
+    max-width: 2rem;
+    margin-top: 1rem;
+}
+
+.meeple_user {
+
+    max-width: 2rem;
+    margin-top: 1rem;
+}
+
+.nexttime {
+
+text-align: center;
+text-transform: uppercase;
+font-size: 0.50rem;
+}
+
+.add {
+    max-width: 2rem;
+}
