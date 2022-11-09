@@ -1,76 +1,61 @@
-nav {
-    background-color: brown;
-    display:flex;
-    justify-content: space-between;
+
+
+/* ! Background du site */
+
+html {
+    background-image: url(../Images/site_background.jpg);
+    font-family: Varela Round, 
+}
+
+
+/* ! Navigation du site */
+
+/* ? Bloc de navigation */
+
+a 
+{
+    text-decoration: none;
+}
+
+li > a 
+{
     color: white;
-    text-align: center;
+
+}
+li > a:hover 
+{
+  background-color: #46B39C ; 
 }
 
-main {
-    /* display: flex; */
+
+.nav_list 
+{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style-type:none;
+
+background-color: #08252D;
+
+
 }
 
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+@media all and (max-width: 400px ) {
+    .nav_list {
+        background-color: blue;
+        display: block;
+    }
 }
 
-footer {
-
-    display: flex;
-    justify-content: end;
-    align-content: flex-end;
-    bottom: 100%;
-}
-
-.listetable {
-
-    margin: 75%;
-    display: flex ;
-    flex-wrap: wraps;
-    align-content: center;
-    justify-content: centers;
-}
-
-.logo_boussole {
-
-    max-width: 2rem;
-    margin-top: 1rem;
-}
-
-.meeple_user {
-
-    max-width: 2rem;
-    margin-top: 1rem;
-}
-
-.nexttime {
-
-text-align: center;
+.list-element
+{
+display: flex;
+margin: 0 1rem 0 1rem;
 text-transform: uppercase;
-font-size: 0.50rem;
+
+color: white;
+
+
 }
 
-.add {
-    max-width: 2rem;
-}
-/* test */
-
-
-
-.listetable {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.testimg {
-    width: 10rem;
-}
-
-.formtable {
-    display: flex;
-    width: 50%;
-    height: 50%;
-}
