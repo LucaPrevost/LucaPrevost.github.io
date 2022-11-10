@@ -4,13 +4,11 @@
 
 html {
     background-image: url(../Images/site_background.jpg);
-    font-family: Varela Round, 
+    font-family: Varela Round,
 }
 
 
 /* ! Navigation du site */
-
-/* ? Bloc de navigation */
 
 a 
 {
@@ -41,12 +39,14 @@ background-color: #08252D;
 
 }
 
-@media all and (max-width: 400px ) {
-    .nav_list {
-        background-color: blue;
-        display: block;
-    }
-}
+/* Bouton close */
+.sidenav .close {
+    visibility: hidden;
+    position: absolute;
+    visibility: visible;
+ }
+
+
 
 .list-element
 {
