@@ -4,7 +4,8 @@
 
 html {
     background-image: url(../Images/site_background.jpg);
-    font-family: Varela Round,
+    font-family: Varela Round;
+    max-width: 100%;
 }
 
 
@@ -59,3 +60,14 @@ color: white;
 
 }
 
+.headmain
+{
+    background-color: #0F3645;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px ) {
+@media screen and (max-device-width: 800px ) {
     
     
 /* Sidenav menu */
@@ -67,6 +67,18 @@
 
     justify-content: flex-start;
  }
+
+ .headmain
+{
+    background-color: #0F3645;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
 
 }
 
