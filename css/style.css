@@ -6,6 +6,8 @@ html {
     background-image: url(../Images/site_background.jpg);
     font-family: Varela Round;
     max-width: 100%;
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -60,6 +62,8 @@ color: white;
 
 }
 
+/* ! Titre principal index */
+
 .headmain
 {
     background-color: #0F3645;
@@ -70,4 +74,64 @@ color: white;
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 10px;
+}
+
+/* ! Portrait & lien de réservation */
+
+.headreservation 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+#portraitJenny 
+{
+    border-radius: 25px;
+    max-width: fit-content;
+    margin-bottom: 2rem;
+}
+
+.buttonrdv
+{
+    font-size: x-large;
+    color:#0F3645;
+    border: solid;
+    border-color: #FFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* ! Double partie avec infos sur le cabinet*/
+
+.doublepart
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.accessibilite
+{
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+.rendezvous
+{
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+.rdvtitle
+{
+    text-align: center;
+    background-color: #0F3645;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
 }
